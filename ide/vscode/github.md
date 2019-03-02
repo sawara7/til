@@ -14,6 +14,6 @@ linux系のコマンドが使えるっぽくて便利。
 左側のメニューからソース管理で変更点を確認できる。  
 ![編集画面](https://github.com/sawara7/til/blob/master/ide/vscode/img/git.png)  
 サイドメニュー右上の・・・ボタンでプッシュやプル、コミットができる。  
-"同期"しないとコミットが反映されない？
+"同期"しないとコミットが反映されない？  
 [参考：Visual Studio CodeでGitを利用する](https://www.atmarkit.co.jp/ait/articles/1507/21/news017.html)
 
