@@ -7,12 +7,13 @@ SourceTreeをインストールするときに一緒にインストールして�
 cmdではなくgit bashというコンソールがインストールされていたのでそっちを使った。
 linux系のコマンドが使えるっぽくて便利。  
 コマンドは  
-'git clone http://github.com/sawara7/til.git E:til'
-[参考:今さら聞けない！GitHubの使い方【超初心者向け】](https://techacademy.jp/magazine/6235)
+`git clone http://github.com/sawara7/til.git E:til`  
+[参考:今さら聞けない！GitHubの使い方【超初心者向け】](https://techacademy.jp/magazine/6235)  
 
 ## 3.VS Codeで編集する
 左側のメニューからソース管理で変更点を確認できる。  
-![編集画面](/img/git.imp)  
-サイドメニュー右上の・・・ボタンでプッシュやプルができる。  
+![編集画面](/img/git.png)  
+サイドメニュー右上の・・・ボタンでプッシュやプル、コミットができる。  
+"同期"しないとコミットが反映されない？
 [参考：Visual Studio CodeでGitを利用する](https://www.atmarkit.co.jp/ait/articles/1507/21/news017.html)
 
