@@ -1,6 +1,4 @@
 # Markdownの表示方法
 Ctrl + K Vで表示できる。  
-![画面](http://github.com/sawara7/til/ide/vscode/img/markdown.png)  
-少し期待していたものと違う…  
- - 画像が表示されない  
- - githubで表示されるものと若干違う…  
+![画面](https://github.com/sawara7/til/blob/master/ide/vscode/img/markdown.png?raw=true)  
+githubで表示されるものと若干違うがまぁよしとしよう。
