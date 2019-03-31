@@ -1,0 +1,22 @@
+object FormTObject: TFormTObject
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 194
+  ClientWidth = 286
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Size.Width = 286.000000000000000000
+    Size.Height = 194.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 282.000000000000000000
+    Viewport.Height = 190.000000000000000000
+  end
+end
