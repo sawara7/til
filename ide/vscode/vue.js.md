@@ -17,3 +17,4 @@ cliというvue.jsのフレームワーク？的なものを使ってデバッ�
 2. サーバーを立ち上げる  
 ![configuration](./img/openwithliveserver.png)
 3. F9でデバッグ開始  
+4. Ctrl + F2 で終了  
