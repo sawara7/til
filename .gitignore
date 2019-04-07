@@ -1,6 +1,7 @@
-delphi/rtl/TObject/__history/
-delphi/rtl/TObject/Win32/
-delphi/rtl/TObject/Win64/
+*__history
+*Win32
+*Win64
+*.hg
 *.vscode
 *.local
 *.identcache
