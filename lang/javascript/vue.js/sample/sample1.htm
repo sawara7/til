@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<title></title>
+<script src="https://unpkg.com/e@2.5.7"></script>
+
+<div id="app">
+    <p>
+        {{ message }}
+    </p>
+</div>
+
+<script>
+    console.assert(typeof Vue!=='undefined');
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'こんにちは'
+        }
+    });
+</script>
