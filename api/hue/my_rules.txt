@@ -1,0 +1,125 @@
+[{"id":"001788fffeb28e02","internalipaddress":"192.168.10.107"}]
+
+{
+"name":"Entrance",
+
+"conditions":
+[{"address":"/sensors/2/state/buttonevent","operator":"eq","value":"16"}],
+
+"actions":
+[{"address":"/groups/0/action","method":"PUT", "body":{"scene":"S3"}}]}
+
+
+
+/api/DwL5xI6KtIIjELRM3V9Y0LQiSoNJJHkLOyrFYN2x/lights/2/state
+{
+"on":true,
+"bri":254
+}
+
+5:entrance
+13:living
+17:kitchen
+state presence
+
+
+:My Rules
+
+POST:/api/DwL5xI6KtIIjELRM3V9Y0LQiSoNJJHkLOyrFYN2x/rules
+
+//========================================================================
+"id": "14"
+{  "name":"Entrance ON Rule",
+   "conditions":[
+        {"address":"/sensors/5/state/presence",
+         "operator":"eq",
+         "value":"true"}],
+
+   "actions":[	
+        {"address":"/lights/2/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}},
+
+        {"address":"/lights/6/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}},
+
+        {"address":"/lights/5/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}},
+
+        {"address":"/lights/7/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}}
+   ]
+}
+
+//========================================================================
+"id": "15"
+{  "name":"Living ON Rule",
+   "conditions":[
+        {"address":"/sensors/13/state/presence",
+         "operator":"eq",
+         "value":"true"}],
+
+   "actions":[	
+        {"address":"/lights/2/state",
+         "method":"PUT",
+         "body":{"on":false}},
+
+        {"address":"/lights/6/state",
+         "method":"PUT",
+         "body":{"on":false}},
+
+        {"address":"/lights/5/state",
+         "method":"PUT",
+         "body":{"on":false}},
+
+        {"address":"/lights/7/state",
+         "method":"PUT",
+         "body":{"on":false}},
+
+        {"address":"/lights/1/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}},
+
+        {"address":"/lights/3/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}},
+
+        {"address":"/lights/4/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}},
+
+        {"address":"/lights/8/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}}
+   ]
+}
+
+//========================================================================
+id:16
+{  "name":"Living OFF Rule",
+   "conditions":[
+        {"address":"/sensors/13/state/presence",
+         "operator":"eq",
+         "value":"false"}],
+
+   "actions":[	
+        {"address":"/lights/1/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}},
+
+        {"address":"/lights/3/state",
+         "method":"PUT",
+         "body":{"on":true,"bri":254}},
+
+        {"address":"/lights/4/state",
+         "method":"PUT",
+         "body":{"on":false}},
+
+        {"address":"/lights/8/state",
+         "method":"PUT",
+         "body":{"on":false}}
+   ]
+}
