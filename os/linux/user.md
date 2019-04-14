@@ -8,5 +8,5 @@ usermod -aG sudo user
 
 ## パスワードなしでsudoできるようにする
 visudo
-%sudo ALL=(ALL:ALL) NOPASSWD:ALL
-
+%sudo ALL=(ALL:ALL) NOPASSWD:ALL  
+※ visudoの終わり方は^X=「ctrl + X」

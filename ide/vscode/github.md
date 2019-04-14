@@ -17,3 +17,5 @@ linux系のコマンドが使えるっぽくて便利。
 "同期"しないとコミットが反映されない？  
 [参考：Visual Studio CodeでGitを利用する](https://www.atmarkit.co.jp/ait/articles/1507/21/news017.html)
 
+## 4.ワークスペース内に複数プロジェクトを置く場合
+それぞれのプロジェクトのフォルダで
