@@ -2,7 +2,6 @@
 ホスティング・データベース等を一手に引き受けてくれるサービス  
 ユーザーはバックエンドを意識せずに、フロントエンドとロジックに集中できる  
 
-## Google Cloud Platformとの違い  
-[Google cloudとfirebaseは何が違うのですか？](https://jp.quora.com/Google-cloud%E3%81%A8firebase%E3%81%AF%E4%BD%95%E3%81%8C%E9%81%95%E3%81%86%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8B)  
-Firebase : フロントエンド向け  
-Google Cloud Platform :　バックエンド向け  
+## 目次
+1. [セットアップ手順](./setup.md)
+2. [Google Cloud Functions on firebase](./functions.md)
