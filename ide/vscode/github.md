@@ -1,6 +1,10 @@
 # VS Codeでgithubを使いたい
-## 1.gitをインストールする。  
-SourceTreeをインストールするときに一緒にインストールしてた。  
+## 1.gitのセットアップ
+gitをインストールする。  
+インストール後、初期設定を行う。  
+`$ git config --global user.name 'username'`  
+`$ git config --global user.email 'username@example.com'`  
+[VSCodeでのGitの基本操作まとめ](https://qiita.com/y-tsutsu/items/2ba96b16b220fb5913be)    
 
 ## 2.リモートリポジトリをクローンする
 コマンドプロンプトから実行するしかないみたい…  
